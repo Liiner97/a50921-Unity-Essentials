@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class HelloWorld : MonoBehaviour
 {
-    public Vector3 scaleChange;
+    public Vector3 positionChange;
+    public Vector3 rotateChange;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +15,8 @@ public class HelloWorld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localScale += scaleChange;
-        
+        transform.position += positionChange;
+        transform.Rotate (rotateChange);
         
     }
 }
