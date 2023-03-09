@@ -707,7 +707,7 @@ GameObject:
   - component: {fileID: 934632974}
   - component: {fileID: 934632973}
   m_Layer: 0
-  m_Name: ScriptObjetct
+  m_Name: BallTranform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,7 +725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 148a4374f399de64a9f1c38d505d3048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myMessage: ola
+  scaleChange: {x: 0, y: 0, z: 0}
 --- !u!4 &934632974
 Transform:
   m_ObjectHideFlags: 0
