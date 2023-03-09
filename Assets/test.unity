@@ -725,6 +725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 148a4374f399de64a9f1c38d505d3048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMessage: ola
 --- !u!4 &934632974
 Transform:
   m_ObjectHideFlags: 0
